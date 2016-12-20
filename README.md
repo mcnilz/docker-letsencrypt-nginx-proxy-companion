@@ -150,5 +150,7 @@ $ docker run -d \
 
 * `NGINX_PROXY_CONTAINER`- If for some reason you can't use the docker --volumes-from option, you can specify the name or id of the nginx-proxy container with this variable.
 
+* `ONLY_EXPOSED` - `1` (default) handle only containers with exposed ports, `0` handle all containers (required on rancher environment)
+
 #### Examples:
 If you want other examples how to use this container, look at [docker-letsencrypt-nginx-proxy-companion-examples] (https://github.com/fatk/docker-letsencrypt-nginx-proxy-companion-examples).
